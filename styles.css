@@ -1,6 +1,7 @@
 .journal-clickable {
   cursor: pointer;
 }
+
 .journal-name {
   margin-left: 18px;
 }
@@ -13,12 +14,15 @@
   margin-left: 12px;
   margin-bottom: 12px;
 }
+
 .journal-week-view .journal-weekday {
   font-size: 1em;
 }
+
 .journal-month-with-week {
   grid-template-columns: 35px repeat(7, 30px);
 }
+
 .journal-month-view.with-week {
   grid-template-columns: repeat(8, 30px);
 }
@@ -35,6 +39,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 6px;
 }
+
 .journal-weeknumber {
   font-size: 0.7em;
   display: flex;
@@ -73,6 +78,7 @@
   font-weight: 600;
   letter-spacing: 0.2px;
 }
+
 .is-selected .journal-day-of-week {
   color: var(--text-normal);
 }
@@ -100,10 +106,12 @@
   font-weight: bold;
   font-size: 3em;
 }
+
 .journal-nav-week {
   font-weight: bold;
   font-size: 2.5em;
 }
+
 .journal-day-nav .journal-nav-week {
   font-size: 0.8em;
 }
@@ -114,23 +122,29 @@
   position: absolute;
   top: 30%;
 }
+
 .journal-nav-icon-prev,
 .interval-nav-icon-prev {
   left: -5em;
 }
+
 .journal-nav-icon-next,
 .interval-nav-icon-next {
   right: -5em;
 }
+
 .journal-nav-relative {
   font-size: 0.7em;
 }
+
 .journal-month-nav .journal-nav-month {
   font-size: 2em;
 }
+
 .journal-quarter-nav .journal-nav-quarter {
   font-size: 3em;
 }
+
 .journal-year-nav .journal-nav-year {
   font-size: 3em;
 }
@@ -153,9 +167,11 @@
 .interval-name {
   font-size: 2em;
 }
+
 .interval-nav-current {
   position: relative;
 }
+
 .interval-dates {
   font-size: 0.9em;
   white-space: pre-line;
@@ -164,6 +180,7 @@
 .journal-date-picker-modal {
   --dialog-width: 330px;
 }
+
 .journal-add-notes-modal {
   --dialog-width: 700px;
 }
@@ -173,6 +190,7 @@
   justify-content: space-between;
   margin-bottom: 0.8em;
 }
+
 .journal-dp-year-view {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -184,10 +202,12 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 6px;
 }
+
 .journal-dp-quarters-view {
   display: flex;
   justify-content: space-around;
 }
+
 .journal-out-of-range {
   opacity: 0.7;
 }
@@ -222,9 +242,11 @@
   padding: 2px 4px;
   font-family: monospace;
 }
+
 .journal-variable:hover {
   background-color: var(--background-secondary);
 }
+
 .journal-hint {
   color: var(--bold-color);
 }
@@ -252,6 +274,7 @@
   color: var(--text-accent);
   font-size: 0.8em;
 }
+
 .block-language-calendar-nav {
   padding-top: 1em;
 }
@@ -259,6 +282,7 @@
 .journal-suggestion-icon {
   justify-content: flex-start;
 }
+
 .journal-suggestion-name {
   margin-left: 8px;
 }
@@ -277,18 +301,17 @@
   flex-direction: column;
   align-items: stretch;
 }
-.journal-calendar-view-month-container {
-  display: grid;
-  place-items: center;
-}
+
 .journal-calendar-view-month {
   display: grid;
   grid-template-columns: repeat(7, 30px);
   gap: 6px;
 }
+
 .journal-calendar-view-month.with-week {
   grid-template-columns: repeat(8, 30px);
 }
+
 .journal-calendar-view-toolbar {
   width: 100%;
   display: flex;
@@ -296,6 +319,7 @@
   align-items: center;
   margin-bottom: 6px;
 }
+
 .journal-calendar-view-title-row {
   width: 100%;
   display: grid;
@@ -303,17 +327,20 @@
   gap: 6px;
   margin-bottom: 6px;
 }
+
 .journal-calendar-view-title-row > div {
   padding: 4px 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .journal-calendar-view-title-row .journal-calendar-view-title-text {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
 .journal-note-marker {
   position: absolute;
   bottom: 0;
@@ -324,6 +351,7 @@
   background-color: var(--text-accent);
   transform: translateX(-50%);
 }
+
 .journal-calendar-view-title-text .journal-note-marker {
   bottom: -3px;
 }
@@ -339,6 +367,7 @@
   background-color: var(--interactive-accent);
   border-radius: 2px;
 }
+
 .journal-is-active .journal-note-marker {
   background-color: var(--text-on-accent);
 }
@@ -358,16 +387,20 @@
 .journal-interval + .journal-interval {
   margin-top: 6px;
 }
+
 .journal-interval-name {
   font-size: 1.2em;
 }
+
 .journal-interval-dates {
   font-size: 0.8em;
 }
+
 .journal-is-current-interval {
   color: var(--text-accent);
   font-weight: 600;
 }
+
 .journal-is-active.journal-is-current-interval {
   color: var(--text-on-accent);
 }

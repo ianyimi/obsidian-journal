@@ -111,10 +111,7 @@ export class CalendarViewMonth {
     });
     this.renderTitleRow(titleRow, start, active);
 
-    const viewContainer = this.containerEl.createDiv({
-      cls: "journal-calendar-view-month-container",
-    });
-    const view = viewContainer.createDiv({
+    const view = this.containerEl.createDiv({
       cls: "journal-calendar-view-month",
     });
 
